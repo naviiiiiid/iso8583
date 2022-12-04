@@ -1,0 +1,86 @@
+{
+	"formatElement":
+	{
+		"1":
+		{
+			"values":["[input(10)]"],
+			"types":["MessageTypeIndicator" ]
+		} ,
+
+		"2":
+		{
+			"values":["123401646436730"],
+			"types":[""]
+		},
+		"3":
+		{
+			"values":["190000" ],
+			"types":[""]
+		}
+        ,
+		"4":
+		{
+			"values":["000000020000"],
+			"types":["" ]
+		},
+		"11":
+		{
+			"values":["[random(06)]"],
+			"types":[""]
+		},
+		"12":
+		{
+			"values":["[time(h)]" , "[time(m)]" , "[time(s)]" ],
+			"types":[""]
+		},
+		"13":
+		{
+			"values":["[date(M)]" , "[date(D)]" ],
+			"types":[""]
+		},
+		"17":
+		{
+			"values":["[date(M)]" , "[date(D)]" ],
+			"types":[""]
+		},
+		"22":
+		{
+			"values":["021" ],
+			"types":[""]
+		},
+		"25":
+		{
+			"values":["02" ],
+			"types":[""]
+		},
+		"32":
+		{
+			"values":["123456" ],
+			"types":[""]
+		},
+		"37":
+		{
+			"values":["[random(12)]" ],
+			"types":[""]
+		},
+		"41":
+		{
+			"values":["00091119" ],
+			"types":[""]
+		},
+		"48":
+		{
+			"values":[""  ],
+			"types":[""]
+		},
+		"102": {
+			"values": [
+				""
+			],
+			"types": [
+				""
+			]
+		}
+
+	}
+}

@@ -1,0 +1,266 @@
+{
+	"version" : "1987" ,
+
+	"isoType":
+	{
+		"Numeric":
+		{
+			"paddingType":"Left" ,
+			"pChar":"0" ,
+			"pattern":"[0-9]*"
+		}	,
+		"Alpha":
+		{
+			"paddingType":"Right" ,
+			"pChar":" " ,
+			"pattern":"[A-Za-z\\s]+"
+		}	,
+		"AlphaNumeric":
+		{
+			"paddingType":"Right" ,
+			"pChar":" " ,
+			"pattern":"[0-9A-Za-z\\s]*"
+		}	,
+		"Special":
+		{
+			"paddingType":"None" ,
+			"pChar":"\\0" ,
+			"pattern":".*"
+		}
+	},
+
+	"dataElements":
+	{
+		"DE2":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Variable" ,
+				"maxLength":"19"
+			} ,
+		 "DE3":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"6"
+			} ,
+		 "DE4":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"12"
+			},
+		 "DE5":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"12"
+			},
+		 "DE6":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"10"
+			},
+		 "DE7":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"19"
+			},
+		 "DE8":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"10"
+			},
+		 "DE11":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"6"
+			},
+		 "DE12":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"6"
+			},
+		 "DE13":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"4"
+			},
+		 "DE17":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"4"
+			},
+		 "DE18":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"4"
+			},
+		 "DE19":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"4"
+			},
+		"DE20":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"4"
+			},
+		 "DE22":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"3"
+			},
+		 "DE25":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"2"
+			},
+
+		"DE27":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE28":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+
+		"DE29":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		 "DE32":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Variable" ,
+				"maxLength":"11"
+			},
+		 "DE33":
+			{
+				"dataElement":"Special" ,
+				"lengthType":"Variable" ,
+				"maxLength":"99"
+			},
+		 "DE35":
+			{
+				"dataElement":"Special" ,
+				"lengthType":"Variable" ,
+				"maxLength":"99"
+			},
+		 "DE37":
+			{
+				"dataElement":"AlphaNumeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"12"
+			},
+		"DE38":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"12"
+		},
+		 "DE39":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"2"
+			},
+		 "DE41":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"8"
+			},
+		 "DE42":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"7"
+			},
+		 "DE43":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"3"
+			},
+		 "DE44":
+			{
+				"dataElement":"Special" ,
+				"lengthType":"Variable" ,
+				"maxLength":"99"
+			},
+		 "DE48":
+			{
+				"dataElement":"AlphaNumeric" ,
+				"lengthType":"Variable" ,
+				"maxLength":"999"
+			},
+		"DE49":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE64":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		},
+		 "DE88":
+			{
+				"dataElement":"Numeric" ,
+				"lengthType":"Fixed" ,
+				"maxLength":"10"
+			},
+		 "DE100":
+			{
+				"dataElement":"Special" ,
+				"lengthType":"Variable" ,
+				"maxLength":"99"
+			},
+		 "DE102":
+			{
+				"dataElement":"AlphaNumeric" ,
+				"lengthType":"Variable" ,
+				"maxLength":"28"
+			},
+		 "DE103":
+			{
+				"dataElement":"Special" ,
+				"lengthType":"Variable" ,
+				"maxLength":"28"
+			},
+		 "DE121":
+			{
+				"dataElement":"Special" ,
+				"lengthType":"Variable" ,
+				"maxLength":"999"
+			},
+		"DE128":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		}
+	}
+
+}

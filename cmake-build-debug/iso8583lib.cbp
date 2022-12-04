@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="iso8583lib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\examples\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iso8583lib">
+				<Option output="/tmp/tmp.uyU26YDqdE/cmake-build-debug/lib/libiso8583lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/third-party"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/json-develop"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/plog"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 iso8583lib"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iso8583lib/fast">
+				<Option output="/tmp/tmp.uyU26YDqdE/cmake-build-debug/lib/libiso8583lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/third-party"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/json-develop"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/plog"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 iso8583lib/fast"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISOSimulator">
+				<Option output="/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/ISOSimulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/third-party"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/json-develop"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/plog"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/examples"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 ISOSimulator"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ISOSimulator/fast">
+				<Option output="/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/ISOSimulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/third-party"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/json-develop"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/include/plog"/>
+					<Add directory="/tmp/tmp.uyU26YDqdE/examples"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 ISOSimulator/fast"/>
+					<CompileFile command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -j4 -f &quot;/tmp/tmp.uyU26YDqdE/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/examples/DataElementExample.hpp">
+			<Option target="ISOSimulator"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/examples/DataElementFactory.cpp">
+			<Option target="ISOSimulator"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/examples/DataElementFactory.hpp">
+			<Option target="ISOSimulator"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/examples/main.cpp">
+			<Option target="ISOSimulator"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/include/DataElement.hpp">
+			<Option target="iso8583lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/include/IsoMessage.hpp">
+			<Option target="iso8583lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/include/IsoType.hpp">
+			<Option target="iso8583lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/include/Utils.hpp">
+			<Option target="iso8583lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/include/messgaeGenerator.hpp">
+			<Option target="iso8583lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/src/Utils.cpp">
+			<Option target="iso8583lib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.uyU26YDqdE/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

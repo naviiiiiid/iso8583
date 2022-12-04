@@ -1,0 +1,423 @@
+{
+	"version" : "2003" ,
+
+	"isoType":
+	{
+		"Numeric":
+		{
+			"paddingType":"Left" ,
+			"pChar":"0" ,
+			"pattern":"[0-9]*"
+		}	,
+		"Alpha":
+		{
+			"paddingType":"Right" ,
+			"pChar":" " ,
+			"pattern":"[A-Za-z\\s]+"
+		}	,
+		"AlphaNumeric":
+		{
+			"paddingType":"Right" ,
+			"pChar":" " ,
+			"pattern":"[0-9A-Za-z=\\s]*"
+		}	,
+		"Special":
+		{
+			"paddingType":"None" ,
+			"pChar":"\\0" ,
+			"pattern":".*"
+		}
+	},
+
+	"dataElements":
+	{
+		"DE2":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"19"
+		} ,
+		"DE3":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"6"
+		} ,
+		"DE4":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"12"
+		},
+		"DE5":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"12"
+		},
+		"DE6":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"12"
+		},
+		"DE7":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"10"
+		},
+		"DE8":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"8"
+		},
+		"DE9":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"8"
+		},
+		"DE10":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"8"
+		},
+		"DE11":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"6"
+		},
+		"DE12":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"6"
+		},
+		"DE13":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE14":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE16":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE17":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE18":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE19":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE20":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE21":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE22":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE23":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE24":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE25":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"2"
+		},
+		"DE26":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"2"
+		},
+
+		"DE27":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"4"
+		},
+		"DE28":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"9"
+		},
+
+		"DE29":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"9"
+		},
+		"DE30":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"9"
+		},
+		"DE31":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"9"
+		},
+		"DE32":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"11"
+		},
+		"DE33":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"11"
+		},
+		"DE34":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"99"
+		},
+		"DE35":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"99"
+		},
+		"DE36":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE37":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"12"
+		},
+		"DE38":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"6"
+		},
+		"DE39":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"2"
+		},
+		"DE40":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE41":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"8"
+		},
+		"DE42":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"15"
+		},
+		"DE43":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"40"
+		},
+		"DE44":
+		{
+			"dataElement":"Special" ,
+			"lengthType":"Variable" ,
+			"maxLength":"99"
+		},
+		"DE48":
+		{
+			"dataElement":"Special" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE49":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE50":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE51":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE52":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		},
+		"DE53":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		},
+		"DE54":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE59":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE60":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE62":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE63":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE64":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		},
+		"DE70":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"3"
+		},
+		"DE88":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		},
+		"DE90":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"42"
+		},
+		"DE94":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"7"
+		},
+		"DE98":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"25"
+		},
+		"DE100":
+		{
+			"dataElement":"Numeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"11"
+		},
+		"DE102":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"28"
+		},
+		"DE103":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Variable" ,
+			"maxLength":"28"
+		},
+		"DE121":
+		{
+			"dataElement":"Special" ,
+			"lengthType":"Variable" ,
+			"maxLength":"999"
+		},
+		"DE128":
+		{
+			"dataElement":"AlphaNumeric" ,
+			"lengthType":"Fixed" ,
+			"maxLength":"16"
+		}
+
+	}
+
+}
