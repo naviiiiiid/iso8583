@@ -1,6 +1,5 @@
 # iso 8583 simulator 
-# dynamic C++ library for generate and parse iso8583 in any standard
-# transaction load dynamic from json and iso format (87 , 93 , 2033 ) load from json !
+# transaction load  from json and iso format (87 , 93 , 2033 ) load from json !
 
 
 ./ISOSimulator -parse iso8583_v2003.json "0159020000000000......."
